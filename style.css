@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.square {
+    display: inline-block;
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    transition: background-color 0.3s ease;
+}
+
+.corner {
+    border: 2px solid darkgray; /* Bordas mais escuras para os cantos */
+}
+
+#top-left {
+    background-color: red;
+}
+
+#top-middle {
+    background-color: green;
+}
+
+#top-right {
+    background-color: blue;
+}
+
+#middle-left {
+    background-color: yellow;
+}
+
+#middle-middle {
+    background-color: orange;
+}
+
+#middle-right {
+    background-color: purple;
+}
+
+#bottom-left {
+    background-color: pink;
+}
+
+#bottom-middle {
+    background-color: cyan;
+}
+
+#bottom-right {
+    background-color: lime;
+}
+
+/* Efeito hover para mudar a cor */
+.square:hover {
+    background-color: gray;
+}
